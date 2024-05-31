@@ -1,0 +1,28 @@
+name: flutter_inappwebview
+description: A Flutter geolocation plugin.
+version: 7.6.2
+
+environment:
+  sdk: ">=2.17.0 <4.0.0"
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.pichillilorenzo.flutter_inappwebview
+        pluginClass: InAppWebViewFlutterPlugin
+      ios:
+        pluginClass: InAppWebViewFlutterPlugin
+      web:
+        pluginClass: InAppWebViewFlutterPlugin
+      macos:
+        pluginClass: InAppWebViewFlutterPlugin
