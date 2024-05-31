@@ -20,9 +20,19 @@ flutter:
       android:
         package: com.pichillilorenzo.flutter_inappwebview
         pluginClass: InAppWebViewFlutterPlugin
+        fileName: android/src/main/java/com/pichillilorenzo/flutter_inappwebview/InAppWebViewFlutterPlugin.java
       ios:
         pluginClass: InAppWebViewFlutterPlugin
+        fileName: ios/Classes/InAppWebViewFlutterPlugin.m
       web:
         pluginClass: InAppWebViewFlutterPlugin
+        fileName: lib/web.dart
       macos:
         pluginClass: InAppWebViewFlutterPlugin
+        fileName: macos/Classes/InAppWebViewFlutterPlugin.swift
+      windows:
+        pluginClass: InAppWebViewFlutterPlugin
+        fileName: windows/Classes/InAppWebViewFlutterPlugin.cpp
+      linux:
+        pluginClass: InAppWebViewFlutterPlugin
+        fileName: linux/Classes/InAppWebViewFlutterPlugin.cpp
