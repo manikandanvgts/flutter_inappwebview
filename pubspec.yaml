@@ -16,15 +16,14 @@ dev_dependencies:
 
 flutter:
   plugin:
-    implements: flutter_inappwebview
     platforms:
       android:
         package: com.pichillilorenzo.flutter_inappwebview
         pluginClass: InAppWebViewFlutterPlugin
-        fileName: android/src/main/java/com/pichillilorenzo/flutter_inappwebview/InAppWebViewFlutterPlugin.java
+        fileName: flutter_inappwebview 
       ios:
         pluginClass: InAppWebViewFlutterPlugin
-        fileName: ios/Classes/InAppWebViewFlutterPlugin.m
+        fileName: flutter_inappwebview
       web:
         pluginClass: InAppWebViewFlutterPlugin
         fileName: lib/web.dart
